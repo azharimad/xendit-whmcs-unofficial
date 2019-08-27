@@ -158,8 +158,8 @@ function xendit_kartukredit_link($params)
         }   
 
         // Xendit Params
-		  $fee 			        = ($paymentfee / 100 * $amount);
-		  $feesum			      = (10/100 * $fee) + $fee + 2000;
+	$fee 		= ($paymentfee / 100 * $amount);
+	$feesum		= (10/100 * $fee) + $fee + 2000;
         $total          = $amount + $feesum;
         $description    = $companyName . ' - Order: #' . $invoiceId;
 
